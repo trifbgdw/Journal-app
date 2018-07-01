@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Journal</string>
+
+    <string name="journal_app">Journal App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="title_activity_delete_me">DeleteMeActivity</string>
+    <string name="title_activity_main">Journals</string>
+    <string name="title_activity_addnote">Add Note</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="confirm_dialog_message">Your note has not been saved</string>
+    <string name="confirm_dialog_title">Note</string>
+    <string name="confirm">Erase</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_button">Update</string>
+</resources>
