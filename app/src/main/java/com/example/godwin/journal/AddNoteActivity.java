@@ -63,7 +63,6 @@ public class AddNoteActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra(EXTRA_NOTE_ID)) {
-            saveButton.setText(R.string.update_button);
             if (mNoteId == DEFAULT_NOTE_ID) {
                 // populate the UI
 

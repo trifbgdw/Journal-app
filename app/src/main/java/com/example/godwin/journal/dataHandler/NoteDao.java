@@ -14,7 +14,8 @@ import java.util.List;
 public interface NoteDao {
 
     @Query("SELECT * FROM note ORDER BY id")
-    List<NoteEntry> loadAllNotes();
+    //List<NoteEntry> loadAllNotes();
+    LiveData<List<NoteEntry>> loadAllNotes();
 
     @Insert
     void insertNote(NoteEntry noteEntry);
