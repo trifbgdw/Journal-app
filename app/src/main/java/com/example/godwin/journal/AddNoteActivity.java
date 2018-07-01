@@ -166,7 +166,6 @@ public class AddNoteActivity extends AppCompatActivity {
         JournalExecutors.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
-                mDb.noteDao().insertNote(note);
                 if (mNoteId == DEFAULT_NOTE_ID) {
                     // insert new note
                     mDb.noteDao().insertNote(note);
